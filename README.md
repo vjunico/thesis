@@ -2,11 +2,11 @@
 Application of Ant Lion Optimizer Algorithm for Knapsack Problem
 
 Pseudocode (adapted from Emary, Zawbaa, dan Hassanien, 2016)
-input		:	N Number of antlions, 
-          n Number of ants, 
-          IterMax Number of iterations. 
-output	:	xelite Optimal antlion binary position, 
-          f(xelite) Best fitness value. 
+
+input	:         N Number of antlions, n Number of ants, IterMax Number of iterations. 
+
+output	:         xelite Optimal antlion binary position, f(xelite) Best fitness value. 
+
 1.	Initialize a population of n ants’ position at random ϵ 0,1. 
 2.	Initialize a population of N antlions’ position at random ϵ 0,1. 
 3.	Calculate the fitness of all ants and antlions. 
